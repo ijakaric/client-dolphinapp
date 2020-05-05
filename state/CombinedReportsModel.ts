@@ -1,5 +1,7 @@
-import {Instance, types} from "mobx-state-tree";
-import {rootStore} from "./RootModel";
+import { getRoot, Instance, types } from "mobx-state-tree";
+import { rootStore, RootType } from "./RootModel";
+import { URLs } from "./URLs";
+import { fetch } from "whatwg-fetch";
 
 function parseISOString(s) {
   const b = s.split(/\D+/);
@@ -24,6 +26,8 @@ export const ReportModel = types.model("Report", {
 const ReportData = types.model("",{
   date: "",
   time: "",
+  _id: "",
+  type: "",
 })
 
 const tempReportData = ReportData.create();
@@ -90,18 +94,49 @@ export const CombinedReportsModel = types.model("CombinedReports", {
       });
       maps.forEach((map, index) => {
         //@ts-ignore
-        console.log(map.size);
-        //@ts-ignore
+        // console.log("Outer map size: ", map.size);
         self.reportSections.push({
-          title: index === 0 ? "This month" : parseISOString(Array.from(map?.values()[0].created_at)).toDateString()?.split(' ')[1],
+          //@ts-ignore
+          title: index === 0 ? "This month" : parseISOString(Array.from(map?.values())[0]?.created_at).toDateString()?.split(' ')[1],
           //@ts-ignore
           data: Array.from(map?.values()).map(report => {
+            // console.log("report: ", report);
             return {
               date: parseISOString(report.created_at).toDateString(),
               time: getTime(parseISOString(report.created_at)),
+              _id: report._id,
+              type: report.type,
             }
           })
         });
+      });
+      self.reportSections.forEach(section => {
+        console.log(...section.data);
+        // section.data.forEach(data => {
+        //   console.log(data);
+        // })
+      })
+    },
+    getReportById(report, navigation) {
+      const root: RootType = getRoot(self);
+      const url = report.type === "maintenanceReport"
+        ? `${URLs.getMaintenanceReportById}/${report._id}`
+        : `${URLs.getServiceReportById}/${report._id}`;
+      return fetch(url, {
+        headers: {
+          authorization: `Bearer ${root.loginForm.token}`,
+        }
+      }).then(response => {
+        response.json().then(result => {
+          console.log(result.data);
+          if(report.type === "maintenanceReport") {
+            //SingleReportForm call setters
+            navigation.navigate("SingleReport");
+          } else {
+            //SingleReportForm call setters
+            navigation.navigate("SingleServiceReport");
+          }
+        })
       });
     },
   }

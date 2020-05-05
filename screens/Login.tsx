@@ -57,10 +57,8 @@ export const LoginScreen = observer(({ navigation }) => {
 
           <View
             onTouchEnd={() => {
-              console.log("logging");
               submitLogin(email, password)
                 .then(() => {
-                  console.log("getting");
                   getCombinedReports().then(() => {
                     navigation.navigate("Reports");
                   });

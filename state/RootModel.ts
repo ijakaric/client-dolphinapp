@@ -4,12 +4,14 @@ import { LoginModel } from "./LoginModel";
 import { ReportsModel } from "./ReportsModel";
 import { SingleReportModel } from "./SingleReportModel";
 import {CombinedReportsModel} from "./CombinedReportsModel";
+import {SingleServiceReportModel} from "./SingleServiceReportModel";
 
 
 export const RootModel = types.model("Root", {
   loginForm: LoginModel,
   reportsForm: ReportsModel,
   singleReportForm: SingleReportModel,
+  singleServiceReportForm: SingleServiceReportModel,
   combinedReportsForm: CombinedReportsModel,
 });
 
@@ -20,6 +22,10 @@ export const rootStore = RootModel.create({
     reportTime: new Date(),
   },
   singleReportForm: {
+    reportDate: new Date(),
+    reportTime: new Date(),
+  },
+  singleServiceReportForm: {
     reportDate: new Date(),
     reportTime: new Date(),
   },

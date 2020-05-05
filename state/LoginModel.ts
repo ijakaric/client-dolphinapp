@@ -1,7 +1,7 @@
 import {getRoot, types} from "mobx-state-tree";
 import { fetch } from "whatwg-fetch";
 import { headers, URLs } from "./URLs";
-import {RootType} from "./RootModel";
+import { RootType } from "./RootModel";
 
 export const LoginModel = types
   .model("Login", {
@@ -54,7 +54,6 @@ export const LoginModel = types
       },
       submitLogin(email, password) {
         return new Promise((resolve, reject) => {
-          console.log("logging here", self.email, self.password)
           fetch(URLs.login, {
             headers,
             method: "POST",

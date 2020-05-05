@@ -21,7 +21,7 @@ import {ReportDataType} from "../state/CombinedReportsModel";
 export const Reports = observer(({ navigation }) => {
   const {
     loginForm: { setEmail, setPassword },
-    combinedReportsForm: { reportSections },
+    combinedReportsForm: { reportSections, getReportById },
   } = useMst();
   console.log("reportSections: ", reportSections);
   return (
@@ -46,7 +46,9 @@ export const Reports = observer(({ navigation }) => {
             </View>
 
             <View style={{alignSelf: "flex-end"}}>
-              <Text style={styles.button} onPress={() => navigation.navigate("SingleReport")}>
+              <Text data-id={(item as ReportDataType)._id} data-report-type={(item as ReportDataType).type} style={styles.button} onPress={() => {
+                getReportById(item, navigation);
+              }}>
                 SEE
               </Text>
             </View>
