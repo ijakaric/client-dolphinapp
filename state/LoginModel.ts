@@ -1,12 +1,11 @@
-import { types } from "mobx-state-tree";
+import {getRoot, types} from "mobx-state-tree";
 import { fetch } from "whatwg-fetch";
 import { headers, URLs } from "./URLs";
+import {RootType} from "./RootModel";
 
 export const LoginModel = types
   .model("Login", {
-/*    email: "",
-    password: "",*/
-    email: "technician1@demo.com",
+    email: "client1@demo.com",
     password: "demo",
     result: "",
     token: "",
@@ -26,14 +25,42 @@ export const LoginModel = types
       setToken(token: string): void {
         self.token = token;
       },
+      getCombinedReports() {
+        const root: RootType = getRoot(self);
+        return fetch(URLs.getCombinedReports, {
+          headers: {
+            authorization: `Bearer ${self.token}`,
+          }
+        }).then(response => {
+          response.json().then(result => {
+            result.data.forEach(report => {
+              if(!root.combinedReportsForm.reports.has(report.created_at.substr(0, 7))) {
+                root.combinedReportsForm.addReportMap(report.created_at.substr(0, 7));
+                root.combinedReportsForm.addReport(report.created_at.substr(0, 7), report);
+              } else {
+                root.combinedReportsForm.addReport(report.created_at.substr(0, 7), report);
+              }
+            });
+            root.combinedReportsForm.setReportSections();
+            /*console.log(Array.from(root.combinedReportsForm.reports.keys()));
+            Array.from(root.combinedReportsForm.reports.values()).forEach(map => {
+              Array.from(map.values()).forEach(report => {
+                console.log(report);
+              });
+            });*/
+          });
+        });
+
+      },
       submitLogin(email, password) {
         return new Promise((resolve, reject) => {
+          console.log("logging here", self.email, self.password)
           fetch(URLs.login, {
             headers,
             method: "POST",
             body: JSON.stringify({
-              email: email,
-              password: password,
+              email: self.email,
+              password: self.password,
             }),
           }).then((response) => {
             response.json().then((result) => {
@@ -44,6 +71,8 @@ export const LoginModel = types
                 reject(result.error.msg);
               }
             });
+          }).catch(e => {
+            console.log("error", e);
           });
         });
       },

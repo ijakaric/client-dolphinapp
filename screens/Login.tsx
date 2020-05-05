@@ -24,6 +24,9 @@ export const LoginScreen = observer(({ navigation }) => {
       setEmail,
       setPassword,
       submitLogin,
+      password,
+      email,
+      getCombinedReports
     },
   } = useMst();
   return (
@@ -52,31 +55,19 @@ export const LoginScreen = observer(({ navigation }) => {
             placeholder="Password"
           />
 
-          {/* <Button
-            onPress={() =>
-              submitLogin(email, password)
-                .then(() => {
-
-                })
-                .catch((e) => {
-                  setResult(e);
-                })
-            }
-
-            title="Login"
-          /> */}
-
           <View
             onTouchEnd={() => {
-              // console.log("clicked");
-              navigation.navigate("Reports");
-              // submitLogin(email, password)
-              //   .then(() => {
-              //     navigation.navigate("ReportChoice");
-              //   })
-              //   .catch((e) => {
-              //     setResult(e);
-              //   });
+              console.log("logging");
+              submitLogin(email, password)
+                .then(() => {
+                  console.log("getting");
+                  getCombinedReports().then(() => {
+                    navigation.navigate("Reports");
+                  });
+                })
+                .catch((e) => {
+                  console.log(e);
+                });
             }}
           >
             <LinearGradient

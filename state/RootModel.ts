@@ -3,13 +3,14 @@ import { createContext, useContext } from "react";
 import { LoginModel } from "./LoginModel";
 import { ReportsModel } from "./ReportsModel";
 import { SingleReportModel } from "./SingleReportModel";
+import {CombinedReportsModel} from "./CombinedReportsModel";
 
 
 export const RootModel = types.model("Root", {
   loginForm: LoginModel,
   reportsForm: ReportsModel,
   singleReportForm: SingleReportModel,
- 
+  combinedReportsForm: CombinedReportsModel,
 });
 
 export const rootStore = RootModel.create({
@@ -22,6 +23,7 @@ export const rootStore = RootModel.create({
     reportDate: new Date(),
     reportTime: new Date(),
   },
+  combinedReportsForm: {},
 });
 
 export type RootInstance = Instance<typeof RootModel>;
@@ -35,3 +37,4 @@ export function useMst() {
   }
   return store as RootInstance;
 }
+export interface RootType extends Instance<typeof rootStore> {}
