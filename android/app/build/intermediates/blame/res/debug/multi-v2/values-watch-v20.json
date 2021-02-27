@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\GMan\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\gman\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\GMan\\.gradle\\caches\\transforms-2\\files-2.1\\2c9ee4eb13400698274643671285abba\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\gman\\.gradle\\caches\\transforms-2\\files-2.1\\aecb9b8ae0667f44327b734e5f88f086\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

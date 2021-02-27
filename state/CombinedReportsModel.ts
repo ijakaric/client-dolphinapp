@@ -1,5 +1,5 @@
 import { getRoot, Instance, types } from "mobx-state-tree";
-import { rootStore, RootType } from "./RootModel";
+import { RootType } from "./RootModel";
 import { URLs } from "./URLs";
 import { fetch } from "whatwg-fetch";
 
@@ -92,15 +92,14 @@ export const CombinedReportsModel = types.model("CombinedReports", {
       const maps = self.reportsSortedByMonths.map((key) => {
         return self.reports.get(key);
       });
+      let sections = [];
       maps.forEach((map, index) => {
         //@ts-ignore
-        // console.log("Outer map size: ", map.size);
-        self.reportSections.push({
+        sections.push({
           //@ts-ignore
           title: index === 0 ? "This month" : parseISOString(Array.from(map?.values())[0]?.created_at).toDateString()?.split(' ')[1],
           //@ts-ignore
           data: Array.from(map?.values()).map(report => {
-            // console.log("report: ", report);
             return {
               date: parseISOString(report.created_at).toDateString(),
               time: getTime(parseISOString(report.created_at)),
@@ -110,12 +109,8 @@ export const CombinedReportsModel = types.model("CombinedReports", {
           })
         });
       });
-      self.reportSections.forEach(section => {
-        console.log(...section.data);
-        // section.data.forEach(data => {
-        //   console.log(data);
-        // })
-      })
+      // @ts-ignore
+      self.reportSections = sections.slice();
     },
     getReportById(report, navigation) {
       const root: RootType = getRoot(self);
@@ -128,13 +123,13 @@ export const CombinedReportsModel = types.model("CombinedReports", {
         }
       }).then(response => {
         response.json().then(result => {
-          console.log(result.data);
+          console.log(report.type);
           if(report.type === "maintenanceReport") {
             //SingleReportForm call setters
-            navigation.navigate("SingleReport");
+            navigation.navigate("MaintenanceReport");
           } else {
             //SingleReportForm call setters
-            navigation.navigate("SingleServiceReport");
+            navigation.navigate("ServiceReport");
           }
         })
       });

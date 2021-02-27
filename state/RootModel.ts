@@ -2,7 +2,7 @@ import { Instance, types } from "mobx-state-tree";
 import { createContext, useContext } from "react";
 import { LoginModel } from "./LoginModel";
 import { ReportsModel } from "./ReportsModel";
-import { SingleReportModel } from "./SingleReportModel";
+import { MaintenanceReportModel } from "./SingleReportModel";
 import {CombinedReportsModel} from "./CombinedReportsModel";
 import {SingleServiceReportModel} from "./SingleServiceReportModel";
 
@@ -10,7 +10,7 @@ import {SingleServiceReportModel} from "./SingleServiceReportModel";
 export const RootModel = types.model("Root", {
   loginForm: LoginModel,
   reportsForm: ReportsModel,
-  singleReportForm: SingleReportModel,
+  singleReportForm: MaintenanceReportModel,
   singleServiceReportForm: SingleServiceReportModel,
   combinedReportsForm: CombinedReportsModel,
 });

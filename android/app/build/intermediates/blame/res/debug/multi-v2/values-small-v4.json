@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\GMan\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\gman\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\GMan\\.gradle\\caches\\transforms-2\\files-2.1\\43c52b9c3b43431cfbd3e3c5bd743b1c\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\gman\\.gradle\\caches\\transforms-2\\files-2.1\\990be4114f8c9b6dbbe6f7fdbe0193f0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

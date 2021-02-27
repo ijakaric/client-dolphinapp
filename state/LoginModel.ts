@@ -1,17 +1,21 @@
-import {getRoot, types} from "mobx-state-tree";
+import { getRoot, types } from "mobx-state-tree";
 import { fetch } from "whatwg-fetch";
 import { headers, URLs } from "./URLs";
 import { RootType } from "./RootModel";
 
 export const LoginModel = types
   .model("Login", {
-    email: "client1@demo.com",
-    password: "demo",
+    email: "",
+    password: "",
     result: "",
     token: "",
+    error: ""
   })
-  .actions((self) => {
+  .actions(self => {
     return {
+      setError(error) {
+        self.error = error;
+      },
       setResult(result) {
         self.result = result;
       },
@@ -29,16 +33,28 @@ export const LoginModel = types
         const root: RootType = getRoot(self);
         return fetch(URLs.getCombinedReports, {
           headers: {
-            authorization: `Bearer ${self.token}`,
+            authorization: `Bearer ${self.token}`
           }
         }).then(response => {
           response.json().then(result => {
             result.data.forEach(report => {
-              if(!root.combinedReportsForm.reports.has(report.created_at.substr(0, 7))) {
-                root.combinedReportsForm.addReportMap(report.created_at.substr(0, 7));
-                root.combinedReportsForm.addReport(report.created_at.substr(0, 7), report);
+              if (
+                !root.combinedReportsForm.reports.has(
+                  report.created_at.substr(0, 7)
+                )
+              ) {
+                root.combinedReportsForm.addReportMap(
+                  report.created_at.substr(0, 7)
+                );
+                root.combinedReportsForm.addReport(
+                  report.created_at.substr(0, 7),
+                  report
+                );
               } else {
-                root.combinedReportsForm.addReport(report.created_at.substr(0, 7), report);
+                root.combinedReportsForm.addReport(
+                  report.created_at.substr(0, 7),
+                  report
+                );
               }
             });
             root.combinedReportsForm.setReportSections();
@@ -50,7 +66,6 @@ export const LoginModel = types
             });*/
           });
         });
-
       },
       submitLogin(email, password) {
         return new Promise((resolve, reject) => {
@@ -58,22 +73,26 @@ export const LoginModel = types
             headers,
             method: "POST",
             body: JSON.stringify({
-              email: self.email,
-              password: self.password,
-            }),
-          }).then((response) => {
-            response.json().then((result) => {
-              if (!result.error && result.token) {
-                this.setToken(result.token);
-                resolve();
-              } else {
-                reject(result.error.msg);
-              }
+              email: self.email.trim(),
+              password: self.password.trim()
+            })
+          })
+            .then(response => {
+              response.json().then(result => {
+                if (!result.error && result.token) {
+                  this.setToken(result.token);
+                  resolve();
+                } else {
+                  this.setError(result.error.msg);
+                  console.log("self error: ", self.error);
+                  reject(result.error.msg);
+                }
+              });
+            })
+            .catch(e => {
+              console.log("error", e);
             });
-          }).catch(e => {
-            console.log("error", e);
-          });
         });
-      },
+      }
     };
   });

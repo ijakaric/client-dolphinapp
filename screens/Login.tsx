@@ -8,9 +8,9 @@ import {
   TextInput,
   View,
   ImageBackground,
+  Animated
 } from "react-native";
 
-//@ts-ignore
 import Logo from "../assets/logo.svg";
 import React from "react";
 import { Colors } from "react-native/Libraries/NewAppScreen";
@@ -26,8 +26,9 @@ export const LoginScreen = observer(({ navigation }) => {
       submitLogin,
       password,
       email,
+      error,
       getCombinedReports
-    },
+    }
   } = useMst();
   return (
     <ScrollView>
@@ -45,14 +46,16 @@ export const LoginScreen = observer(({ navigation }) => {
           </Text>
 
           <TextInput
-            onChangeText={(text) => setEmail(text)}
+            onChangeText={text => setEmail(text)}
             style={styles.input}
             placeholder="Email"
+            autoCapitalize="none"
           />
           <TextInput
-            onChangeText={(text) => setPassword(text)}
+            onChangeText={text => setPassword(text)}
             style={styles.input}
             placeholder="Password"
+            autoCapitalize="none"
           />
 
           <View
@@ -63,11 +66,13 @@ export const LoginScreen = observer(({ navigation }) => {
                     navigation.navigate("Reports");
                   });
                 })
-                .catch((e) => {
+                .catch(e => {
                   console.log(e);
                 });
             }}
           >
+            <Text style={styles.error}>{error}</Text>
+
             <LinearGradient
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 0 }}
@@ -88,17 +93,17 @@ export const LoginScreen = observer(({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20,
+    padding: 20
   },
   scrollView: {
-    backgroundColor: Colors.lighter,
+    backgroundColor: Colors.lighter
   },
   logo: {
     marginTop: 50,
     marginLeft: "auto",
     marginRight: "auto",
     maxWidth: 281,
-    width: "100%",
+    width: "100%"
   },
   titleText: {
     fontSize: 40,
@@ -106,14 +111,14 @@ const styles = StyleSheet.create({
     fontFamily: "AcuminPro-Bold",
     letterSpacing: -0.41,
     marginBottom: 10,
-    marginTop: 88,
+    marginTop: 88
   },
   linearGradient: {
     marginTop: 31,
     paddingLeft: 15,
     paddingRight: 15,
     borderRadius: 10,
-    flex: 1,
+    flex: 1
   },
   buttonText: {
     fontSize: 17,
@@ -122,13 +127,13 @@ const styles = StyleSheet.create({
     paddingTop: 18,
     paddingBottom: 10,
     color: "#ffffff",
-    backgroundColor: "transparent",
+    backgroundColor: "transparent"
   },
   baseText: {
     fontFamily: "AcuminPro-Light",
     fontSize: 20,
     marginBottom: 40,
-    letterSpacing: 0.38,
+    letterSpacing: 0.38
   },
   input: {
     borderRadius: 8,
@@ -136,10 +141,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#D3D9EB",
     padding: 12,
-    marginBottom: 8,
+    marginBottom: 8
+  },
+  error: {
+    color: "red",
+    fontSize: 17,
+    textAlign: "left"
   },
 
   link: {
-    color: "#745FB8",
-  },
+    color: "#745FB8"
+  }
 });

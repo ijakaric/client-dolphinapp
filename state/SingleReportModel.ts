@@ -1,6 +1,6 @@
 import { types } from "mobx-state-tree";
 
-export const SingleReportModel = types
+export const MaintenanceReportModel = types
   .model("Login", {
     poolName: "",
     reportDate: types.Date,
@@ -20,7 +20,6 @@ export const SingleReportModel = types
   .actions((self) => {
     return {
       setName(poolName: string) {
-        // Alert.alert(poolName);
         self.poolName = poolName;
       },
       setReportDate(reportDate) {
@@ -55,7 +54,6 @@ export const SingleReportModel = types
       onChange(event, value) {
         this.hideDatePicker();
         this.hideTimePicker();
-        console.log(value);
         if (self.isDatePickerVisible) {
           this.setReportDate(value);
         } else {

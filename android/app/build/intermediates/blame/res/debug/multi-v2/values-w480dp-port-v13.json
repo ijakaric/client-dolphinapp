@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\GMan\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "C:\\Users\\gman\\source\\client-dolphinapp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\GMan\\.gradle\\caches\\transforms-2\\files-2.1\\43c52b9c3b43431cfbd3e3c5bd743b1c\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\gman\\.gradle\\caches\\transforms-2\\files-2.1\\990be4114f8c9b6dbbe6f7fdbe0193f0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
