@@ -1,0 +1,266 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-linear-gradient] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] C:\Users\gman\source\client-dolphinapp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fs] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de79bcc1c8f07ae1e13200cb2dc07741\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\990be4114f8c9b6dbbe6f7fdbe0193f0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\aecb9b8ae0667f44327b734e5f88f086\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\77b7ca140e750bd0883bd5ccf69687a5\AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\1109ee211648458adae1744fdc8fa461\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\113d3fd31db88881dd6aaae1b76a3831\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\03b96541d282be2a4f051ded2ea60092\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de7fe2d916fbd869b18a58ba00163755\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5cddd24f4b3ae1043434bce2b94ce891\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\2833fb68a71357a252b0e4b54c9941e1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ad264dc15d5517b6e0886020092a0c9f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\7c8b4859bba96be16a5b74f6e31b52d8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a4a17d29851f33948a664ffd5646a751\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fce1fae0215b4935a384c2932ccb5603\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\feadac330dff7355a991ee6b019fda3e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e1a03a8f66e25fe031e42e93d39f1c18\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\499f4610b3cf5a592d93f0402094c879\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\3ea4b10d775b69d7c8c613cac7fd7da7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a80942bf7d793e739ec18f22a624c443\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e71030a63b93b61d676af5dc1d132c58\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cc4798ca56a5ddf0a52017f0c9f732a8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a7428e0e43f9759a1c35a52feeb99a47\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fd9080da70473617ea0b5ac41946b626\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\624811209fc88613970c9a8f9c9611ce\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\25760c8abbbc875d17d4ee9871105c1e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a0f9589c40780fe338f98a1dd3de3868\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f0c93a8ff1851be90018ac6dd002a114\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cead7dce65e80616530d807de0a73ca0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5408a9a0ce6ca09b36d0a57f5103466a\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\516bfe6def3e6100277a3241e15bee16\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\742987383bbe8bd6c6f9a276fc977a0f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ff3a678f45df4f8c654e18d60086b079\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f4ed0fde88c072f372c77cc2568c76a2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\4e5b570825ca4f8893fa90938744a347\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e80420b92bc54069d804bfcfc8791aee\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\da61a8b466fc18255c14b005470f7fe4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\91277593f70f5b39f28bc01d21992212\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\29e80b914838435acc2403f9ccb103aa\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:2:3-24
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:2:3-24
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:6:5-80
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:6:5-80
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:6:5-80
+MERGED from [:react-native-fs] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de79bcc1c8f07ae1e13200cb2dc07741\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de79bcc1c8f07ae1e13200cb2dc07741\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\990be4114f8c9b6dbbe6f7fdbe0193f0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\990be4114f8c9b6dbbe6f7fdbe0193f0\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a4a17d29851f33948a664ffd5646a751\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a4a17d29851f33948a664ffd5646a751\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5408a9a0ce6ca09b36d0a57f5103466a\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5408a9a0ce6ca09b36d0a57f5103466a\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:9:7-39
+	tools:ignore
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:8:75-114
+	android:roundIcon
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:11:7-52
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:11:7-52
+	tools:targetApi
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:8:54-74
+	android:icon
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:12:7-34
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:13:7-38
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:13:7-38
+	android:usesCleartextTraffic
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:8:18-53
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.dolphin.MainActivity
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:14:7-23:18
+	android:label
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:16:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:17:9-79
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:15:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-linear-gradient] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] C:\Users\gman\source\client-dolphinapp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\gman\source\client-dolphinapp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] C:\Users\gman\source\client-dolphinapp\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de79bcc1c8f07ae1e13200cb2dc07741\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de79bcc1c8f07ae1e13200cb2dc07741\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\990be4114f8c9b6dbbe6f7fdbe0193f0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\990be4114f8c9b6dbbe6f7fdbe0193f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\aecb9b8ae0667f44327b734e5f88f086\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\aecb9b8ae0667f44327b734e5f88f086\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\77b7ca140e750bd0883bd5ccf69687a5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\77b7ca140e750bd0883bd5ccf69687a5\AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\1109ee211648458adae1744fdc8fa461\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\1109ee211648458adae1744fdc8fa461\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\113d3fd31db88881dd6aaae1b76a3831\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\113d3fd31db88881dd6aaae1b76a3831\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\03b96541d282be2a4f051ded2ea60092\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\03b96541d282be2a4f051ded2ea60092\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de7fe2d916fbd869b18a58ba00163755\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\de7fe2d916fbd869b18a58ba00163755\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5cddd24f4b3ae1043434bce2b94ce891\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5cddd24f4b3ae1043434bce2b94ce891\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\2833fb68a71357a252b0e4b54c9941e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\2833fb68a71357a252b0e4b54c9941e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ad264dc15d5517b6e0886020092a0c9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ad264dc15d5517b6e0886020092a0c9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\7c8b4859bba96be16a5b74f6e31b52d8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\7c8b4859bba96be16a5b74f6e31b52d8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a4a17d29851f33948a664ffd5646a751\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a4a17d29851f33948a664ffd5646a751\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fce1fae0215b4935a384c2932ccb5603\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fce1fae0215b4935a384c2932ccb5603\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\feadac330dff7355a991ee6b019fda3e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\feadac330dff7355a991ee6b019fda3e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e1a03a8f66e25fe031e42e93d39f1c18\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e1a03a8f66e25fe031e42e93d39f1c18\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\499f4610b3cf5a592d93f0402094c879\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\499f4610b3cf5a592d93f0402094c879\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\3ea4b10d775b69d7c8c613cac7fd7da7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\3ea4b10d775b69d7c8c613cac7fd7da7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a80942bf7d793e739ec18f22a624c443\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a80942bf7d793e739ec18f22a624c443\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e71030a63b93b61d676af5dc1d132c58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e71030a63b93b61d676af5dc1d132c58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cc4798ca56a5ddf0a52017f0c9f732a8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cc4798ca56a5ddf0a52017f0c9f732a8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a7428e0e43f9759a1c35a52feeb99a47\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a7428e0e43f9759a1c35a52feeb99a47\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fd9080da70473617ea0b5ac41946b626\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\fd9080da70473617ea0b5ac41946b626\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\624811209fc88613970c9a8f9c9611ce\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\624811209fc88613970c9a8f9c9611ce\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\25760c8abbbc875d17d4ee9871105c1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\25760c8abbbc875d17d4ee9871105c1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a0f9589c40780fe338f98a1dd3de3868\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\a0f9589c40780fe338f98a1dd3de3868\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f0c93a8ff1851be90018ac6dd002a114\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f0c93a8ff1851be90018ac6dd002a114\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\c8cabd8385122a3dbae49152bbfffdd0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cead7dce65e80616530d807de0a73ca0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\cead7dce65e80616530d807de0a73ca0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5408a9a0ce6ca09b36d0a57f5103466a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\5408a9a0ce6ca09b36d0a57f5103466a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\516bfe6def3e6100277a3241e15bee16\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\516bfe6def3e6100277a3241e15bee16\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\742987383bbe8bd6c6f9a276fc977a0f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\742987383bbe8bd6c6f9a276fc977a0f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ff3a678f45df4f8c654e18d60086b079\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\ff3a678f45df4f8c654e18d60086b079\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f4ed0fde88c072f372c77cc2568c76a2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\f4ed0fde88c072f372c77cc2568c76a2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\4e5b570825ca4f8893fa90938744a347\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\4e5b570825ca4f8893fa90938744a347\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e80420b92bc54069d804bfcfc8791aee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\e80420b92bc54069d804bfcfc8791aee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\da61a8b466fc18255c14b005470f7fe4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\da61a8b466fc18255c14b005470f7fe4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\91277593f70f5b39f28bc01d21992212\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\91277593f70f5b39f28bc01d21992212\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\29e80b914838435acc2403f9ccb103aa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\gman\.gradle\caches\transforms-2\files-2.1\29e80b914838435acc2403f9ccb103aa\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\gman\source\client-dolphinapp\android\app\src\debug\AndroidManifest.xml:5:22-75
